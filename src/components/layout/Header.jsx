@@ -61,9 +61,8 @@ export function Header() {
           </div>
         )}
         <div className="flex justify-between">
-          <div className="bg-[#FD0054] flex flex-col items-center w-[20%]">
+          <div className="bg-[#FD0054] flex flex-col items-center w-[20%] box-border p-2">
             <Barbell size={40} />
-            <p>Vitor</p>
           </div>
           <div className="w-full flex items-center">
             <ul className="w-full flex items-center justify-around uppercase transition-all duratisNaon-700">

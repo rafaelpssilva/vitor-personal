@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        RobotoCondensed: ["Roboto Condensed", "sans-serif"],
+        RobotoCondensed: ["Kanit", "sans-serif"],
       },
       backgroundImage: {
         "hero-pattern":

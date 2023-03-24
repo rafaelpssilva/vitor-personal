@@ -21,10 +21,13 @@ import React, { useState } from "react";
 import { CalculateIBM } from "./components/assests/CalculateIBM";
 import { Header } from "./components/layout/Header";
 import { Home } from "./components/layout/Home";
+import { Classes } from "./components/layout/Classes";
+import AboutMe from "./components/layout/AboutMe";
+import { Clientes } from "./components/layout/Clientes";
 
 export function App() {
   return (
-    <div>
+    <div className="">
       <div className="h-[100vh] bg-hero-pattern bg-cover md:px-8 bg-no-repeat overflow-hidden">
         <Header />
         <Home />
@@ -32,13 +35,13 @@ export function App() {
       <div className=" mt-[-70px] px-8">
         <CalculateIBM />
       </div>
+      <div className="md:px-8">
+        <div className="px-8">
+          <Classes />
+          <AboutMe />
+          <Clientes />
+        </div>
+      </div>
     </div>
   );
 }
-
-// <div className="absolute left-0 top-1/2 text-white">
-//             <ArrowSquareLeft size={40} />
-//           </div>
-//           <div className="absolute right-0 top-1/2 text-white">
-//             <ArrowSquareRight size={40} />
-//           </div>
